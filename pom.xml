@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.amazecode.basis</groupId>
+    <artifactId>basis-java</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>collection</module>
+        <module>concurrency</module>
+        <module>db-pool</module>
+        <module>design-pattern</module>
+        <module>java-create-tomcat</module>
+        <module>jvm</module>
+        <module>mybatis</module>
+        <module>nginx</module>
+        <module>spring</module>
+        <module>springmvc</module>
+        <module>work-common-error</module>
+    </modules>
+</project>
