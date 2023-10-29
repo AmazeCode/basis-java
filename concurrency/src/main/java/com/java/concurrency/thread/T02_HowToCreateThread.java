@@ -17,7 +17,7 @@ public class T02_HowToCreateThread {
      * @author: AmazeCode
      * @date: 2023/10/29 20:27
      */
-    static class MyThread extends Thread{
+    static class MyThread extends Thread {
         @Override
         public void run() {
             System.out.println("Hello World");
@@ -29,7 +29,7 @@ public class T02_HowToCreateThread {
      * @author: AmazeCode
      * @date: 2023/10/29 20:27
      */
-    static class MyRun implements Runnable{
+    static class MyRun implements Runnable {
         @Override
         public void run() {
             System.out.println("Hello MyRun!");
@@ -43,7 +43,7 @@ public class T02_HowToCreateThread {
      */
     static class MyCall implements Callable<String> {
         @Override
-        public String call(){
+        public String call() {
             System.out.println("Hello MyCall");
             return "success";
         }
@@ -51,8 +51,8 @@ public class T02_HowToCreateThread {
 
 
     /**
-     * @description: 启动线程的5种方式
      * @param args
+     * @description: 启动线程的5种方式
      * @return: void
      * @author: AmazeCode
      * @date: 2023/10/29 20:30
@@ -75,7 +75,7 @@ public class T02_HowToCreateThread {
 
         // 方式五：线程池,生产环境不推荐这种方式
         ExecutorService service = Executors.newCachedThreadPool();
-        service.execute(() ->{
+        service.execute(() -> {
             System.out.println("Hello ThreadPool");
         });
         service.shutdown();
