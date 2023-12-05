@@ -1,6 +1,5 @@
 package com.java.spring.aop;
 
-import com.java.spring.annotation.service.UserAnnotationService;
 import com.java.spring.aop.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -20,7 +19,5 @@ public class Test {
         UserService userService = (UserService)applicationContext.getBean("userServiceImpl");
         userService.add();
         userService.addForAop();
-        // 验证
-        userService.addForCheckAnnotation();
     }
 }
