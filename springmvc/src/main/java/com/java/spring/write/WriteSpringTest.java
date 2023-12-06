@@ -1,6 +1,7 @@
 package com.java.spring.write;
 
 import com.java.spring.write.config.ItApplicationContext;
+import com.java.spring.write.service.ItUserService;
 
 /**
  * @description: 手写Spring验证
@@ -14,6 +15,7 @@ public class WriteSpringTest {
      */
     public static void main(String[] args) {
         ItApplicationContext itApplicationContext = new ItApplicationContext(AppConfig.class);
-        //itApplicationContext.getBean();
+        ItUserService userService = (ItUserService)itApplicationContext.getBean("itUserService");
+        userService.test();
     }
 }
