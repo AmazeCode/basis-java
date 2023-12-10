@@ -1,6 +1,9 @@
 package com.java.spring.write.service;
 
-import com.java.spring.write.config.*;
+import com.java.spring.write.config.ItAutowired;
+import com.java.spring.write.config.ItBeanNameAware;
+import com.java.spring.write.config.ItComponent;
+import com.java.spring.write.config.ItInitializingBean;
 
 /**
  * @description:
