@@ -10,7 +10,5 @@
 |jvm|jvm、java内存结构|
 |mybatis|mybatis学习|
 |nginx|nginx学习|
-|spring|spring基本使用|
-|springmvc|手写springmvc|
 |work-common-error|java业务开发常见100例错误，未完|
       

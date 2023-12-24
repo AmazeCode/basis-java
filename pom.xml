@@ -24,8 +24,6 @@
         <module>jvm</module>
         <module>mybatis</module>
         <module>nginx</module>
-        <module>spring</module>
-        <module>springmvc</module>
         <module>work-common-error</module>
     </modules>
 </project>
