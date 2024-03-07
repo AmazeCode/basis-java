@@ -1,4 +1,4 @@
-package com.java.design.pattern.factory.simple;
+package com.java.design.pattern.factory.simple.car;
 
 import org.apache.commons.lang3.StringUtils;
 

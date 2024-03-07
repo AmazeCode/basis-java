@@ -1,4 +1,4 @@
-package com.java.design.pattern.factory.simple;
+package com.java.design.pattern.factory.simple.car;
 
 /**
  * 汽车4s店
